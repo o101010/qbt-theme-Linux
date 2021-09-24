@@ -2,7 +2,7 @@
 This fork is a help for people using qBittorrent on Linux tring tu use custom theme.
 
 
-Four themes are available, build for Ubuntu based OS and Qt 5.12.8. With a little change, you can directly used pre-build theme. Otherwise, you can bluid it yourself by following [this notice](Build/README.md).
+Four themes are available, build for Ubuntu based OS and Qt 5.12.8. With a little change, you can directly used pre-build theme. Otherwise, you can bluid it yourself by following [this notice](Builds/README.md).
 
 # How to use
 
