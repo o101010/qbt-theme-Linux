@@ -11,7 +11,7 @@ Get the Qt version used by your version of qBittorrent.
  1. Go to `help` -> `About` -> `Software Used`
  1. Save the Qt version number
  
- ![Qt-version](screenshots/qt-version.png)
+ ![Qt-version](../screenshots/qt-version.png)
 
 Some versions of rcc are available in [tools](tools/). If there is the correct one, just rename it.
 ```sh
