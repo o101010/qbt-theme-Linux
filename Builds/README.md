@@ -13,7 +13,7 @@ Get the Qt version used by your version of qBittorrent.
  
  ![Qt-version](../screenshots/qt-version.png)
 
-Some versions of rcc are available in [tools](tools/). If there is the correct one, just rename it.
+Some versions of rcc are available in [tools](tools/). If there is the correct one, just rename it and make it executable.
 ```sh
 mv tools/rcc-qtx_x_x tools/rcc
 chmod +x tools/rcc
@@ -29,7 +29,7 @@ If not, you have to install Qt. To keep your main system clear, you can do it in
  1. Choose *Qtx.x.x/Desktop gcc 64-bit* componant
  1. Locate rcc file and copy it. Do not choose a *Src* one.
  ```sh
- sudo find / -name rcc
+ sudo find / -name rcc 2> /dev/null
  cp /home/<user>/Qt<x.x.x>/<x.x.x>/gcc_64/bin/rcc tools/rcc
  ```
  
