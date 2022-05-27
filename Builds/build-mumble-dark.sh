@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export SCRIPT_DIR=mumble-theme
+SCRIPT_DIR=mumble-theme
 
 if [ -d "mumble-icons"]; then
 	rm -r mumble-icons
